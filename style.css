@@ -1,0 +1,76 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.previewCardContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.cardOne {
+  height: 500px;
+  width: 300px;
+  background-color: hsl(31, 77%, 52%);
+  border-radius: 10px 0px 0px 10px;
+}
+
+.cardTwo {
+  height: 500px;
+  width: 300px;
+  background-color: hsl(184, 100%, 22%);
+}
+
+.cardThree {
+  height: 500px;
+  width: 300px;
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 0px 10px 10px 0px;
+}
+
+.cardOne h2,
+.cardTwo h2,
+.cardThree h2 {
+  font-family: "Big Shoulders Display", sans-serif;
+  color: white;
+  font-weight: 700;
+  position: relative;
+  left: 30px;
+  bottom: 30px;
+}
+
+.cardOne p,
+.cardTwo p,
+.cardThree p {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+  color: white;
+  text-align: left; /* Align text center horizontally */
+  margin: 0; /* Remove any default margin */
+  width: 100%; /* Make the text fill the entire width of its container */
+  font-weight: 300;
+  line-height: 2;
+}
+
+.cardOne img,
+.cardTwo img,
+.cardThree img {
+  height: 50px;
+  width: 80px;
+  margin: 40px 0px 40px 40px;
+}
+
+.txtContainer {
+  height: auto;
+  width: 250px;
+  border: 1px solid red;
+}
+
+.cardOne button,
+.cardTwo button,
+.cardThree button {
+  margin: 50px 0px 0px 50px;
+  font-family: "Lexend Deca", sans-serif;
+}
