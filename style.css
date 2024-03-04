@@ -41,6 +41,12 @@ body {
   bottom: 30px;
 }
 
+.txtContainer {
+  height: auto;
+  width: 250px;
+  margin-left: 10px;
+}
+
 .cardOne p,
 .cardTwo p,
 .cardThree p {
@@ -50,8 +56,9 @@ body {
   text-align: left; /* Align text center horizontally */
   margin: 0; /* Remove any default margin */
   width: 100%; /* Make the text fill the entire width of its container */
-  font-weight: 300;
+  font-weight: 400;
   line-height: 2;
+  margin-left: 40px;
 }
 
 .cardOne img,
@@ -62,15 +69,56 @@ body {
   margin: 40px 0px 40px 40px;
 }
 
-.txtContainer {
-  height: auto;
-  width: 250px;
-  border: 1px solid red;
+.cardOne button {
+  margin: 50px 0px 0px 50px;
+  font-family: "Lexend Deca", sans-serif;
+  background-color: hsl(0, 0%, 95%);
+  color: hsl(31, 77%, 52%);
+  border-style: none;
+  height: 40px;
+  width: 120px;
+  border-radius: 50px;
+  transition: background-color, color, border, 0.3s ease;
 }
 
-.cardOne button,
-.cardTwo button,
+.cardOne button:hover {
+  background-color: hsl(31, 77%, 52%);
+  color: white;
+  border: solid 1px white;
+}
+
+.cardTwo button {
+  margin: 50px 0px 0px 50px;
+  font-family: "Lexend Deca", sans-serif;
+  background-color: hsl(0, 0%, 95%);
+  color: hsl(184, 100%, 22%);
+  border-style: none;
+  height: 40px;
+  width: 120px;
+  border-radius: 50px;
+  transition: background-color, color, border, 0.3s ease;
+}
+
+.cardTwo button:hover {
+  background-color: hsl(184, 100%, 22%);
+  color: white;
+  border: solid 1px white;
+}
+
 .cardThree button {
   margin: 50px 0px 0px 50px;
   font-family: "Lexend Deca", sans-serif;
+  background-color: hsl(0, 0%, 95%);
+  color: hsl(179, 100%, 13%);
+  border-style: none;
+  height: 40px;
+  width: 120px;
+  border-radius: 50px;
+  transition: background-color, color, border, 0.3s ease;
+}
+
+.cardThree button:hover {
+  background-color: hsl(179, 100%, 13%);
+  color: white;
+  border: solid 1px white;
 }
