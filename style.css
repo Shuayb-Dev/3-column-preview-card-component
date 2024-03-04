@@ -125,6 +125,10 @@ body {
 }
 
 @media screen and (max-width: 910px) {
+  body {
+    overflow: visible;
+  }
+
   .previewCardContainer {
     display: flex;
     flex-direction: column;
